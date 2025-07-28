@@ -1,0 +1,28 @@
+body {
+    margin: 20px;
+    font-family: 'Noto Sans Bamum', sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid #f7ede2;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #84a59d;
+    color: #f5cac3;
+    border-radius: 10px;
+    box-shadow: 5px 5px #f6bd60;
+}
+
+.hover-text :hover {
+    color: #f28482;
+    transition: color 0.5s;
+}
